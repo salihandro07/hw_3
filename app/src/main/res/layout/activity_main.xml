@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#A3D13F"
+    tools:context=".MainActivity">
+
+    <!-- Icon -->
+    <ImageView
+        android:id="@+id/owlIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/owl_icon"
+        android:layout_marginTop="30dp"/>
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trivia"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp" />
+
+    <!-- Facebook login button -->
+    <Button
+        android:id="@+id/facebookLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in with Facebook"
+        android:backgroundTint="#3b5998"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@drawable/facebook_icon"
+        android:layout_marginTop="20dp" />
+
+    <!-- Or separator -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp" />
+
+    <!-- Email login button -->
+    <Button
+        android:id="@+id/emailLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up with Email"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#A3D13F"
+        android:layout_marginTop="10dp" />
+
+    <!-- Game Now button -->
+    <Button
+        android:id="@+id/gameNowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME NOW"
+        android:backgroundTint="#4285F4"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
